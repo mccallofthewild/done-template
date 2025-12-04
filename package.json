@@ -11,11 +11,11 @@
   "scripts": {
     "dev": "bun run --cwd frontend dev",
     "build": "bun run --cwd frontend build",
-    "local": "bun run  bun run --cwd frontend dev",
-    "preview": "bunx @donezone/cli dev & bun run--cwd frontend preview",
-    "contracts:build": "bunx @donezone/cli build",
-    "contracts:deploy": "bunx @donezone/cli deploy",
-    "contracts:dev": "bunx @donezone/cli dev"
+    "local": "bunx done dev & bun run --cwd frontend dev",
+    "preview": "bun run--cwd frontend preview",
+    "contracts:build": "bunx done build",
+    "contracts:deploy": "bunx done deploy",
+    "contracts:dev": "bunx done dev"
   },
   "devDependencies": {
     "@donezone/cli": "^0.1.0",
