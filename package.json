@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "bun run --cwd frontend dev",
     "build": "bun run --cwd frontend build",
-    "preview": "bun run --cwd frontend preview",
+    "local": "bun run  bun run --cwd frontend dev",
+    "preview": "bunx @donezone/cli dev & bun run--cwd frontend preview",
     "contracts:build": "bunx @donezone/cli build",
     "contracts:deploy": "bunx @donezone/cli deploy",
     "contracts:dev": "bunx @donezone/cli dev"

@@ -1,0 +1,12 @@
+# Node/Bun dependencies
+node_modules/
+bun.lockb
+
+# Build artifacts
+contracts/**/dist/
+frontend/dist/
+
+# Env + CLI state
+.done/
+.env
+.env.*

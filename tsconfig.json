@@ -9,11 +9,18 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "types": ["bun", "@donezone/contract-types"],
+    "types": [
+      "bun",
+      "@donezone/contract-types"
+    ],
     "baseUrl": ".",
     "paths": {
-      "@contracts/*": ["contracts/*/src/*"],
-      "@frontend/*": ["frontend/src/*"]
+      "@contracts/*": [
+        "contracts/*"
+      ],
+      "@frontend/*": [
+        "frontend/src/*"
+      ]
     }
   },
   "include": [
