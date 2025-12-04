@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["bun", "@donezone/contract-types"],
+    "baseUrl": ".",
+    "paths": {
+      "@contracts/*": ["contracts/*/src/*"],
+      "@frontend/*": ["frontend/src/*"]
+    }
+  },
+  "include": [
+    "contracts/**/*.ts",
+    "frontend/src/**/*.ts",
+    "frontend/src/**/*.tsx"
+  ]
+}

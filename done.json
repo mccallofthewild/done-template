@@ -1,0 +1,15 @@
+{
+  "contracts": [
+    {
+      "name": "helloWorld",
+      "entry": "./contracts/hello-world/src/index.ts",
+      "outFile": "./contracts/hello-world/dist/hello-world.contract.js",
+      "watch": [
+        "./contracts/hello-world/src/**/*.ts"
+      ],
+      "instantiate": {
+        "admin": null
+      }
+    }
+  ]
+}

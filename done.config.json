@@ -1,0 +1,29 @@
+{
+  "contractsFile": "./done.json",
+  "contractsDir": "./contracts",
+  "env": {
+    "default": "local",
+    "profiles": {
+      "local": {
+        "chain": "http://127.0.0.1:26657",
+        "workspace": "done-local",
+        "signer": "local-dev"
+      },
+      "staging": {
+        "chain": "https://staging-rpc.done.zone",
+        "workspace": "done-staging",
+        "signer": "done-staging"
+      },
+      "mainnet": {
+        "chain": "https://rpc.done.zone",
+        "workspace": "done-main",
+        "signer": "done-mainnet"
+      }
+    }
+  },
+  "dev": {
+    "port": 8787,
+    "envFile": ".done/dev.env",
+    "routerAddress": null
+  }
+}
