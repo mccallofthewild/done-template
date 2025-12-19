@@ -2,7 +2,7 @@
 
 Each subdirectory under `contracts/` is an independent Bun package that exports a Done contract via `Done.serve()`. Packages should:
 
-1. Depend on `@donezone/contract-types` for ambient Done typings.
+1. Depend on `done.zone` for ambient Done typings.
 2. Keep entrypoints under `src/` so `done.json` can point to them.
 3. Expose a default export compatible with the Done runtime.
 4. Avoid node/bun built-ins that are not part of the Done runtime.

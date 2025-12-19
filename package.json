@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@donezone/cli": "^0.1.0",
-    "@donezone/contract-types": "^0.1.0",
+    "done.zone": "^0.1.0",
     "@types/bun": "^1.1.10",
     "typescript": "^5.8.3"
   }

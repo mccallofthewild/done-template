@@ -7,6 +7,6 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@donezone/contract-types": "^0.1.0"
+    "done.zone": "^0.1.0"
   }
 }
