@@ -12,8 +12,8 @@ const baseUrl =
   "http://127.0.0.1:8787";
 
 const contractAddress =
-  import.meta.env.VITE_DONE_CONTRACT_HELLOWORLD ??
-  import.meta.env.DONE_CONTRACT_HELLOWORLD ??
+  import.meta.env.VITE_DONE_CONTRACT_HELLO_WORLD ??
+  import.meta.env.DONE_CONTRACT_HELLO_WORLD ??
   "";
 
 function useHelloContract() {
@@ -73,7 +73,7 @@ function App() {
         <p>
           Run <code>bunx done dev</code> to deploy <code>helloWorld</code> locally. The CLI will
           write the contract address to <code>.done/dev.env</code>, which Vite reads via
-          <code>DONE_CONTRACT_HELLOWORLD</code>.
+          <code>DONE_CONTRACT_HELLO_WORLD</code>.
         </p>
       </header>
 
