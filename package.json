@@ -18,8 +18,8 @@
     "contracts:dev": "bunx done dev"
   },
   "devDependencies": {
-    "@donezone/cli": "^0.1.0",
-    "done.zone": "^0.1.0",
+    "@donezone/cli": "^0.1.41",
+    "done.zone": "^0.1.41",
     "@types/bun": "^1.1.10",
     "typescript": "^5.8.3"
   }
