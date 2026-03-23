@@ -8,8 +8,8 @@ const DEFAULT_GREETING = "Hello from Done";
 
 export default Done.serve()
   .instantiate(async () => {
-    const existing = await Greeting.load();
-    if (!existing) {
+    const exists = await Greeting.exists();
+    if (!exists) {
       await Greeting.save(DEFAULT_GREETING);
     }
   })
